@@ -1,0 +1,178 @@
+body
+{
+    margin: 0;
+    padding:0;
+    background-color: aliceblue;
+    color:darkgreen;
+    font-style:italic;
+    font-family: alegreya bold;
+    font-size: 20px;
+    
+    
+    
+}
+h1.content{
+    margin:0;
+    padding:0;
+    background-color: aquamarine;
+    color:black;
+    font-family: alegreya bold;
+    width:1000px;
+}
+div
+{
+    margin-left: 0%;
+    padding: 10px;
+}
+ul
+{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style-type: none;
+    position:fixed;
+    width: 100%;
+    background-color: beige;
+    
+}
+li
+{
+    float: left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color:black;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    backface-visibility: visible;
+    border-right:2px solid grey;
+        '
+}
+li a:hover{
+   display:table;
+    text-align:center;
+    color:white;
+    background-color: black;
+    font-family: sans-serif;
+    font-style:italic;
+    padding:30px;
+    font-size: 30px;
+    padding-bottom: 30px;
+    border:2px solid blue;
+    border-radius: 25px;
+}
+#outsidebox{
+    width: 1200px;
+    overflow:hidden;
+}
+#sliderbox
+{
+    position:relative;
+    width:4800px;
+    animation-name:language;
+    animation: 20s language infinite;
+    
+}
+#sliderbox img
+{
+    float:left;
+    overflow: hidden;
+}
+@keyframes language
+{
+    0%
+    {
+        left:0px;
+    }
+    20%
+    {
+        left:0px;
+    }
+    25%
+    {
+        left:-1200px;
+    }
+    45%
+    {
+        left:-1200px;
+    }
+    50%
+    {
+        left:-2400px;
+    }
+    70%
+    {
+        left:-2400px;
+    }
+    75%{
+        left:-3600px;
+    }
+    95%{
+        left:-3600px;
+    }
+    100%{
+        left:-4800px;
+    }
+    
+}
+h2.headerfile{
+    margin:0px;
+    background-color:burlywood;
+    color:darkred;
+    width:800px;
+    }
+ul.social{
+    margin:0px;
+    background-color: antiquewhite;
+    list-style-type: none;
+    position:relative;
+    overflow:hidden;
+    border-spacing: 4px;
+}
+.facebook {
+    background-color: rgb(59, 89, 152);
+    color:white;
+    font-family: roboto bold;
+    padding:10px;
+    text-decoration: none;
+}
+
+.google {
+    background-color:  rgb(219, 68, 55);
+    color:white;
+    font-family: roboto bold;
+    padding:10px;
+    text-decoration: none;
+}
+a:hover{
+    padding:20px;
+}
+
+.twitter {
+    font-family: ;
+    background-color:rgb(29, 161, 242);
+    color:white;
+    padding:10px;
+    text-decoration: none;
+}
+
+.Instagram {
+    font-family:roboto bold;
+    background-color: rgb(76, 76, 76);
+    color:white;
+    padding:10px;
+    text-decoration: none;
+}
+
+.youtube {
+    background-color: rgb(0, 132, 255);
+    color:white;
+    padding:10px;
+    font-family: roboto bold;
+    text-decoration: none;
+}
